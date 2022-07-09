@@ -20,8 +20,8 @@ def lambda_handler(event, context):
     Tagging={
         'TagSet': [
             {
-                'Key': 'tag-key',
-                'Value': 'tag-value'
+                'Key': 'TextBook',
+                'Value': 'Research Methods'
                 },
          ]
      }
