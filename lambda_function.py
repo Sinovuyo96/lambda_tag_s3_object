@@ -7,11 +7,6 @@ import json
 
 s3_client = boto3.client('s3')
 
-# get_tags_response = s3_client.get_object_tagging(
-#     Bucket='your-bucket-name',
-#     Key='folder-if-any/file-name.extension',
-# )
-
 def lambda_handler(event, context):
 
     put_tags_response = s3_client.put_object_tagging(
